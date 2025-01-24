@@ -2,8 +2,6 @@
 
 > 一份详尽的 Solana 链上土狗交易教程，从零开始教你如何安全参与 Solana 生态。
 
-![logo](https://solana.com/_next/static/media/logotype.e4df684f.svg)
-
 ## 🎯 教程目标
 
 本教程旨在帮助你：
