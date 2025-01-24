@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Solana 打土狗完全指南</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Solana链上土狗交易完全指南">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #00ffbd;
+    }
+    
+    /* 推特链接样式 */
+    .twitter-link {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      color: #00ffbd;
+      text-decoration: none;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: opacity 0.3s;
+    }
+    
+    .twitter-link:hover {
+      opacity: 0.8;
+    }
+    
+    .twitter-link svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+    
+    /* 封面样式 */
+    section.cover {
+      background: linear-gradient(to left bottom, #1a1a1a 0%, #0d0d0d 100%) !important;
+    }
+    
+    section.cover .cover-main {
+      color: white;
+    }
+    
+    section.cover .cover-main h1 {
+      color: #00ffbd;
+      font-size: 4rem;
+      margin: 0.625rem 0 2.5rem;
+      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    section.cover .cover-main blockquote {
+      color: #cccccc;
+      font-size: 1.5rem;
+      line-height: 1.8;
+      margin: 2rem 0;
+    }
+    
+    section.cover .cover-main ul {
+      font-size: 1.2rem;
+      line-height: 2;
+      max-width: 35rem;
+      margin: 2rem auto;
+    }
+    
+    section.cover .cover-main p.buttons a {
+      border: none;
+      padding: 0.75em 2rem;
+      margin: 0.5rem 1rem;
+      border-radius: 2rem;
+      transition: all 0.3s ease;
+    }
+    
+    section.cover .cover-main p.buttons a:first-child {
+      background: linear-gradient(45deg, #00ffbd, #00b8ff);
+      color: black;
+      font-weight: bold;
+    }
+    
+    section.cover .cover-main p.buttons a:last-child {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    section.cover .cover-main p.buttons a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    
+    .markdown-section {
+      max-width: 800px;
+    }
+    
+    .markdown-section h1 {
+      color: #00ffbd;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    
+    .markdown-section blockquote {
+      border-left: 4px solid #00ffbd;
+    }
+    
+    .markdown-section code {
+      color: #00ffbd;
+    }
+    
+    .app-name-link img {
+      max-width: 80%;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://twitter.com/jask_don" target="_blank" class="twitter-link">
+    <svg viewBox="0 0 24 24">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    </svg>
+    </a>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      el: '#app',
+      name: 'Solana 打土狗指南',
+      loadSidebar: true,
+      coverpage: true,
+      onlyCover: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      homepage: 'README.md',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        depth: 6
+      },
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 复制代码插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 分页导航插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html> 
